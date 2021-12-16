@@ -14,7 +14,9 @@ public class ViraTempo {
                                 mensagem = "Boa Tarde!!";
                         } else if ((graus >= 180) && (graus < 270)) {
                                 mensagem = "Boa Noite!!";
-                        }else mensagem = "De Madrugada!!";
+                        }else{
+                                mensagem = "De Madrugada!!";
+                        }
 
                         System.out.println(mensagem);
 
