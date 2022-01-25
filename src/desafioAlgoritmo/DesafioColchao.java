@@ -16,6 +16,7 @@ public class DesafioColchao {
             int C = leitor.nextInt();
             int H = leitor.nextInt();
             int L = leitor.nextInt();
+
            if((A > H && B > L )||( B > H && A > L) || (B > H && C > L) || (A > H && C > L)){
                 System.out.println("N");
             }else{
