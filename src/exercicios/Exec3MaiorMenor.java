@@ -15,6 +15,7 @@ public class Exec3MaiorMenor {
 
             if(numero > maior)
                 maior = numero;
+
             media += numero;
 
             cont++;
