@@ -11,6 +11,7 @@ public class ArrayMulti {
 
         for (int i = 0; i < M.length; i++) {
             for (int j = 0; j < M[i].length; j++) {
+
                 M[i][j] = random.nextInt(9);
             }
         }
