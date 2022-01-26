@@ -15,11 +15,11 @@ public class FatorialRecursivo {
 
     public static void main(String[] args) {
         int numero;
+
         Scanner entrada = new Scanner(System.in);
         System.out.println("Fatorial: ");
 
         numero = entrada.nextInt();
-
         System.out.println("Fatorial de: " + numero+ " = " + fatorial(numero));
 
     }
