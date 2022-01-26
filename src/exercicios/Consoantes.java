@@ -31,5 +31,7 @@ public class Consoantes {
                 System.out.println(consoante + " ");
             }
         }
+        System.out.println("Quantidade de Consoantes: "+ qtdeConsoantes);
+
     }
 }
