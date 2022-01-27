@@ -49,6 +49,6 @@ public class ListExample {
 
         nomes.clear();
         vazia = nomes.isEmpty();
-        System.out.println();
+        System.out.println(vazia);
     }
 }
