@@ -50,9 +50,14 @@ public class ListExample {
         System.out.println(existe);
         boolean vazia = nomes.isEmpty();
         System.out.println(vazia);
+//
+//        nomes.clear();
+//        vazia = nomes.isEmpty();
+//        System.out.println(vazia);
+        System.out.println("\n");
+        for(String nomeDoItem:nomes){
+            System.out.println(nomeDoItem);
+        }
 
-        nomes.clear();
-        vazia = nomes.isEmpty();
-        System.out.println(vazia);
     }
 }
