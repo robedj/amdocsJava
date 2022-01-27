@@ -38,5 +38,11 @@ public class ListExample {
         int tamanho = nomes.size();
         System.out.println(tamanho);
 
+        boolean existe = nomes.contains("Anderson");
+
+        System.out.println(existe);
+
+        existe = nomes.contains("Adamastor");
+        System.out.println(existe);
     }
 }
