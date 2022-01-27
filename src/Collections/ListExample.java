@@ -25,6 +25,10 @@ public class ListExample {
         nomes.set(2, "Wesley");
         System.out.println(nomes);
 
+        //indexOf
+        int posicao = nomes.indexOf("Adamastor");
+        System.out.println("Posicao: " + posicao);
+
         //remoção
         nomes.remove(4);
         System.out.println(nomes);
