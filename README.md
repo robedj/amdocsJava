@@ -1,5 +1,5 @@
 # amdocsJava - Bootcamp
-- **Linguagem Java. Orientação a objetos e Estruturas de Dados. Principais Bibliotecas**
+- **Linguagem Java. Orientação a objetos e Principais Bibliotecas**
 - **Algoritmos**
 - **Collections** **Streams**
   
