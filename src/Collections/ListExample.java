@@ -44,5 +44,11 @@ public class ListExample {
 
         existe = nomes.contains("Adamastor");
         System.out.println(existe);
+        boolean vazia = nomes.isEmpty();
+        System.out.println(vazia);
+
+        nomes.clear();
+        vazia = nomes.isEmpty();
+        System.out.println();
     }
 }
