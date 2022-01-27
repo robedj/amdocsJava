@@ -35,5 +35,8 @@ public class ListExample {
         String nome = nomes.get(1);
         System.out.println(nome);
 
+        int tamanho = nomes.size();
+        System.out.println(tamanho);
+
     }
 }
